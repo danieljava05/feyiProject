@@ -83,31 +83,4 @@ function dis2(){
 }
 //calling the second drop-down
 dis2();
-
-
-// header stops here 
-document.getElementById('readMoreMulti').addEventListener('click', function() {
-  var truncatedText = document.getElementById('truncatedTextMulti');
-  var fullText = document.getElementById('fullTextMulti');
-  if (truncatedText.classList.contains('hidden')) {
-      truncatedText.classList.remove('hidden');
-      fullText.classList.add('hidden');
-      this.textContent = 'Read more';
-  } 
-  // else {
-  //     truncatedText.classList.add('hidden');
-  //     fullText.classList.remove('hidden');
-      
-  // }
-});
-
-//Downloading jamb novel
-const novel = document.querySelector(".last1");
-
-const novel2 = document.querySelector("#downloadLink");
-novel.addEventListener("click", ()=>{
-  novel2.click();
-})
-
-
-
+//header ends here

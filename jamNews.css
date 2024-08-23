@@ -238,6 +238,7 @@ body {
   /* header design ends here */
 
 
+  /* hro ection begins */
 .hero{
 
   margin-top: 81px;
@@ -284,9 +285,9 @@ body {
 }
 
 .hero .content img{
-  width: 400px;
+  width: 600px;
   height: 400px;
-  margin :10px 20%;
+  margin :10px 40px;
   border-radius: 20px;
 }
 .truncate-multi-line {

@@ -108,6 +108,3 @@ const novel2 = document.querySelector("#downloadLink");
 novel.addEventListener("click", ()=>{
   novel2.click();
 })
-
-
-

@@ -238,6 +238,7 @@ body {
   /* header design ends here */
 
 
+  /* hro ection begins */
 .hero{
 
   margin-top: 81px;
@@ -284,9 +285,9 @@ body {
 }
 
 .hero .content img{
-  width: 600px;
+  width: 400px;
   height: 400px;
-  margin :10px 40px;
+  margin :10px 20%;
   border-radius: 20px;
 }
 .truncate-multi-line {
@@ -462,45 +463,45 @@ footer {
 .contact-info li {
   margin-bottom: 5px;
 }
-
+  
 
 
 .pagination{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    margin: 30px;
-    cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 30px;
+  cursor: pointer;
 }
 .pagination .previous{
-    display: flex;
-    gap : 10px;
-    align-items: center;
-    border: 1px solid orangered;
-    border-radius: 20px;
-    padding: 10px;
+  display: flex;
+  gap : 10px;
+  align-items: center;
+  border: 1px solid orangered;
+  border-radius: 20px;
+  padding: 10px;
 }
 .pagination .next{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    border: 1px solid orangered;
-    border-radius: 20px;
-    padding: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid orangered;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 .pagination .previous:hover{
-    background-color: orangered;
-    transition: all 1s ease-in-out ;
-    border: 1px solid white;
-    color: white;
-}
-.pagination .next:hover{
-  
-    background-color: orangered;
+  background-color: orangered;
   transition: all 1s ease-in-out ;
   border: 1px solid white;
   color: white;
+}
+.pagination .next:hover{
+
+  background-color: orangered;
+transition: all 1s ease-in-out ;
+border: 1px solid white;
+color: white;
 }
 .news a{
   text-decoration: none;
@@ -508,4 +509,3 @@ footer {
 .news2 a{
   text-decoration: none;
 }
-  

@@ -100,6 +100,13 @@ document.getElementById('readMoreMulti').addEventListener('click', function() {
       
   // }
 });
+//Downloading jamb novel
+const novel = document.querySelector(".last1");
+
+const novel2 = document.querySelector("#downloadLink");
+novel.addEventListener("click", ()=>{
+  novel2.click();
+})
 
 
 

@@ -105,6 +105,21 @@ input {
   width: 26vw;
   margin-bottom: 10px;
 }
+.hero2 select{
+  outline: none;
+  border-radius: 20px;
+  background-color: #dde;
+  height: 45px;
+  border: none;
+  width: 29vw;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.hero2 option {
+  color: black !important; /* Ensures options are displayed in black */
+}
+
+
 
 .hero2 h3 {
   margin-bottom: 10px;
